@@ -1,0 +1,189 @@
+/* styles.css */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #452b4e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logo {
+    max-width: 200px;
+}
+
+.header .tagline {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #452b4e;
+}
+
+p {
+    text-align: center;
+}
+
+.about-us p {
+    text-align: justify;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.service {
+    flex: 1 1 calc(50% - 2rem);
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service h2 {
+    color: #f05742;
+    margin-top: 0.5rem;
+}
+
+.app-screenshots {
+    text-align: center;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.screenshots img {
+    width: calc(33.333% - 1rem);
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #f05742;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.download-btn:hover {
+    background: #d04533;
+}
+
+.contact {
+    background: #f9f9f9;
+    padding: 2rem 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #f05742;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #d04533;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-info a {
+    color: #f05742;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer {
+    background: #452b4e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
